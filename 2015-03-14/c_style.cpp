@@ -54,7 +54,7 @@ int main() {
 	while (std::cin >> from >> to >> ch) {
 		size_t newVertexCount = std::max(from, to) + 1;
 
-		// Don't try this at
+		// Don't try this at home.
 		if (newVertexCount > vertexCount) {
 			TVertex** newVertices = new TVertex*[newVertexCount];
 			for (size_t i = 0; i < vertexCount; i++) {
